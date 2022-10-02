@@ -24,4 +24,29 @@ body {
 }
 
 
-   
+.footer-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-black {
+    background-color: black;
+    opacity: 0.9;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width:991px) {
+    .dropdown {
+        background: rgb(255,255,255);
+        background: linear-gradient(-180deg, rgba(255,255,255,0) 27%, rgba(255,255,255,0.5410539215686274) 100%);
+        padding: 20px;
+        text-decoration: underline;
+    }
+}
+
+.redes {
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+  }
